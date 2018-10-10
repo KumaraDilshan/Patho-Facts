@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/disease3"
+    android:background="@drawable/images1"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+        <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/disease3_new"
+        android:id="@+id/imageView4"
+        android:layout_weight="2.67"
+        android:layout_height="249dp" />
+
+        <TextView
+        android:text="Causal Agents:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView1" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView43" />
+
+        <TextView
+        android:text="Symptoms:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:id="@+id/textView2" />
+
+        <TextView
+        android:text="Symptoms first appear on the lower, older leaves as small brown spots with concentric rings."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView3" />
+
+        <TextView
+        android:text="As the disease progresses, it spreads throughout the surface of the leaves, giving a yellow and withered appearance."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView4" />
+
+        <TextView
+        android:text="Eventually the stem, fruits and the upper parts of the plant will get infected."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView5" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18" />
+
+        <TextView
+        android:text="Management of the disease:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:id="@+id/textView19" />
+
+        <TextView
+        android:text="Proper pruning to improve air circulation and reduce fungal attacks."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView20" />
+
+        <TextView
+        android:text="Practicing drip irrigation and soaker hoses to keep the foliage dry."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView21" />
+
+        <TextView
+        android:text="Destroying and burning the infected plant parts."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView22" />
+
+        <TextView
+        android:text="Maintaining field sanitation and disinfecting the pruning equipment."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView23" />
+
+        <TextView
+        android:text="Practicing crop rotation."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView24" />
+
+        <TextView
+        android:text="Applying copper based fungicides, two weeks before the disease normally appear or when forecasts predict prolonged wet weather."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView25" />
+    </LinearLayout>
+</ScrollView>

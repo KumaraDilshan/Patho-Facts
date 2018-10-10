@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gerrie.myapplication_4" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconleaf"
+        android:label="Patho Facts"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".disease1"
+            android:label="Powdery Mildew of cucurbits"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease2"
+            android:label="Cucumber Mosaic Virus Disease"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease3"
+            android:label="Early Blight of Tomato"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease4"
+            android:label="Tomato Late Blight"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease5"
+            android:label="Tomato Yellow leaf curl virus disease"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease6"
+            android:label="Chili Anthracnose"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease7"
+            android:label="Cassava Mosaic Virus Disease"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease8"
+            android:label="Early  Leaf Spot in Groundnut"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease9"
+            android:label="Bean rust"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease10"
+            android:label="Chilli Leaf Curl Complex"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease11"
+            android:label="Damping off"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease12"
+            android:label="Rice Blast"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease13"
+            android:label="Rice Sheath Blight"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease14"
+            android:label="Bacterial Blight"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".disease15"
+            android:label="Maize Streak Virus Disease"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".info"
+            android:label="       Application information"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+
+        <activity
+            android:name=".contact"
+            android:label="           Contact developer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"/>
+
+            //android:theme="@style/AppTheme">     //For full view
+            //android:theme="@style/Theme.AppCompat.Dialog.Alert">    //for pop up
+    </application>
+
+</manifest>

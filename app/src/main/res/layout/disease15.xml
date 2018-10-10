@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/disease15"
+        android:background="@drawable/images1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/drawable15"
+            android:id="@+id/imageView8" />
+
+        <TextView
+            android:text="Causal Agents:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Maize Streak Virus "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:text="Vector:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView8"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Leafhopper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:text="Symptoms:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:text="Coloristic  streaks parallel to the vein."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44" />
+
+        <TextView
+            android:text="Management of the disease:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Crop rotation with broad leaves(E.g. Groundnut)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:text="Field sanitation."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Early planting."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:text="Use resistant culitvars."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView28" />
+
+        <TextView
+            android:text="Control of vectors (Barrier crop, Application of insecticide-E.g. Imidacloprid)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView29" />
+    </LinearLayout>
+</ScrollView>

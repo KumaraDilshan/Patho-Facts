@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/disease2"
+    android:background="@drawable/images1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/disease2_img1"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Causal Agents:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
+
+     <TextView
+         android:text="Cucumber Mosaic Virus (CMV)"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView7" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView8" />
+
+     <TextView
+         android:text="Vector:"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorPrimary"
+         android:textStyle="normal|bold"
+         android:textSize="18sp"
+         android:id="@+id/textView9" />
+
+     <TextView
+         android:text="Aphids"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView10" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView11" />
+
+     <TextView
+         android:text="Symptoms:"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorPrimary"
+         android:textStyle="normal|bold"
+         android:textSize="18sp"
+         android:id="@+id/textView12" />
+
+     <TextView
+         android:text="Leaf mosaic or mottling."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView13" />
+
+     <TextView
+         android:text="Yellowing of leaves."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView14" />
+
+     <TextView
+         android:text="Stunting."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView15" />
+
+     <TextView
+         android:text="Malformation of leaves, flowers and fruits."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView16" />
+
+     <TextView
+         android:text="Wrinkled leaves."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView17" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView18" />
+
+     <TextView
+         android:text="Management of the disease:"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorPrimary"
+         android:textStyle="normal|bold"
+         android:textSize="18sp"
+         android:id="@+id/textView19" />
+
+     <TextView
+         android:text="Application of insecticides to control vectors."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView20" />
+
+     <TextView
+         android:text="Weed control to control the alternative hosts."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView21" />
+
+     <TextView
+         android:text="Use healthy planting materials (CMV  is a seed born pathogen)."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView22" />
+
+     <TextView
+         android:text="Immediately removal and destruction  of infected plant parts from the field."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView23" />
+ </LinearLayout>
+</ScrollView>

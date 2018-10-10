@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images1"
+    android:id="@+id/disease1"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        app:srcCompat="@drawable/disease1_img1"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Causal Agents:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold|italic"
+        android:textSize="16sp"
+        android:text="Erysiphe cichoracaerum " />
+
+    <TextView
+        android:text="Sphaerotheca fuliginea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold|italic"
+        android:textSize="16sp"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:text="Symptoms:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:id="@+id/textView27" />
+
+    <TextView
+        android:text="Disease firstly appear on older leaves as small, circular, white, powdery like fungal colonies on the upper surface."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:text="White colonies can be occasionally seen on the lower surface of leaves and stems."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView29" />
+
+    <TextView
+        android:text="With fungal growth and reproduction white colonies merge together and cover most of the leaf surface."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView30" />
+
+    <TextView
+        android:text="Severely infected leaves  gradually turn yellow, then wither, die, finally become dry and brittle."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView31" />
+
+    <TextView
+        android:text="Fruits are not directly attacked by pathogen. But fruits may be malformed and sunburned due to early loss of foliage."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView32" />
+
+     <TextView
+         android:text="Severe epidemic disease may reduce both size and the number of fruits."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView33" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="5dp"
+         android:id="@+id/textView34" />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         app:srcCompat="@drawable/disease1_img2"
+         android:id="@+id/imageView3"
+         android:layout_weight="0.53" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView35" />
+
+     <TextView
+         android:text="Management of the disease:"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorPrimary"
+         android:textStyle="normal|bold"
+         android:textSize="18sp"
+         android:id="@+id/textView36"
+         android:layout_weight="0.70" />
+
+     <TextView
+         android:text="Use Disease resistant varieties."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView37" />
+
+     <TextView
+         android:text="Maintaining proper cultural practices."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView38" />
+
+     <TextView
+         android:text="Practicing proper cultural practices (Plant in sunny conditions with good air circulation, avoid planting with or near to infected plants, remove old and heavily diseased leaves to improve air circulation and reduce inoculation)."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView39" />
+
+     <TextView
+         android:text="Application of Systemic fungicides (Myclobutani, Trifloxystrobin)."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView40" />
+
+     <TextView
+         android:text="Application of Contact type fungicides (Chlorothalonil)."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView41"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+         android:textStyle="normal|bold"
+         android:textSize="16sp"
+         android:id="@+id/textView42"/>
+
+ </LinearLayout>
+</ScrollView>

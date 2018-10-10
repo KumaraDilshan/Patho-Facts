@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/disease5"
+    android:background="@drawable/images1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/disease5"
+        android:id="@+id/imageView6" />
+
+    <TextView
+        android:text="Causal Agents:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Yellow Leaf Curl Virus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="Vector:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text="Whitefly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:text="Symptoms:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:text="Plants get stunted and dwarfed."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:text="Leaflets roll upwards and inwards."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text="Leaves bent downwards and become stiff, thicker than normal, leathery in texture show interveinal chlorosis."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="Young leaves are slightly chlorotic."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="If produced, fruits are small and dry."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:id="@+id/textView17" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:text="Management of the disease:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:text="Cultivation of resistant varieties."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView20" />
+
+        <TextView
+            android:text="Avoiding movement of affected host plants and seedlings."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView21" />
+
+        <TextView
+            android:text="Controlling the vector, whitefly, using appropriate chemicals and Integrated Pest Management approaches."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Using seedling plants free from the virus as planting materials."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:text="Maintaining proper field sanitation."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Destroying all the older crops after harvest."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView25" />
+    </LinearLayout>
+</ScrollView>

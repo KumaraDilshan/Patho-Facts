@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/disease12"
+        android:background="@drawable/images1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/drawable12"
+            android:id="@+id/imageView8" />
+
+        <TextView
+            android:text="Causal Agents:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:text="Symptoms:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:text="Gray-green and water-soaked lesions with a darker green border on the leaf, seeds, panicle."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:text="Lesions are diamond-shaped."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:text="Rotten neck."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:text="Unfilled grains."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44" />
+
+        <TextView
+            android:text="Management of the disease:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Crop rotation."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:text="Proper fertilizer management- Avoid excessive levels of nitrogenous fertilizer."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Use resistant  varieties."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:text="Application of Fungicides."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView28" />
+
+        <TextView
+            android:text="Biological control of rice blast (e.g. Pseudomonas fluorescens )."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView29" />
+    </LinearLayout>
+</ScrollView>

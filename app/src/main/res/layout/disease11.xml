@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/disease11"
+        android:background="@drawable/images1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/drawable11"
+            android:id="@+id/imageView8" />
+
+        <TextView
+            android:text="Causal Agents:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="A range of fungal pathogens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:text="Rhizoctonia solani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold|italic"
+            android:textSize="16sp"
+            android:id="@+id/textView10" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView26" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView27" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:text="Symptoms:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:text="Seedlings may fail to emerge (pre-emergence damping off)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:text="Seedlings collapse, often submerged in a mass of whitish fungal growth (post-emergence damping off)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:text="Seedlings may die."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:text="Stems of seedlings may also become thin, hairy and tough."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44" />
+
+        <TextView
+            android:text="Management of the disease:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Sow seedlings thinly to avoid crowding."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:text="Remove and discard diseased plants."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Sterilize containers to remove inoculum."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView28" />
+
+        <TextView
+            android:text="Sterilize Planting medium."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView29" />
+
+        <TextView
+            android:text="Maintain well-drained conditions with better air circulation."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView30" />
+
+        <TextView
+            android:text="Spray fungicides (copper oxychloride)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView31" />
+
+        <TextView
+            android:text="Seed treatment."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView32" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView33" />
+    </LinearLayout>
+</ScrollView>

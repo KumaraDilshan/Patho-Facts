@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/disease13"
+        android:background="@drawable/images1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/drawable13"
+            android:id="@+id/imageView8" />
+
+        <TextView
+            android:text="Causal Agents:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Rhizoctonia solani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold|italic"
+            android:textSize="16sp"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:text="Symptoms:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:text="Lesions on the leaves usually have irregular lesions often with gray-white centers and brown margins."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:text="These initial lesions multiply and expand to the upper part of the sheaths, the leaves, and then spread to neighboring tillers."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44" />
+
+        <TextView
+            android:text="Management of the disease:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Use a reasonable level of fertilizer adapted to the cropping season."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:text="Carefully control of weeds."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Drain rice fields relatively early in the cropping season."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:text="Use fungicide to treat seeds."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView28" />
+
+        <TextView
+            android:text="Improve canopy architecture by reducing seeding rate or providing wider plant spacing."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:id="@+id/textView29" />
+    </LinearLayout>
+</ScrollView>

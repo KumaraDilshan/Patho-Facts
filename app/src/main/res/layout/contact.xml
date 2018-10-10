@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/contact"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cover_png_apply"
+        android:id="@+id/imageView10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView45" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="1"
+        android:text="If you are willing to suggest any development or a correction regarding the application, please send an E-mail to dilshan.abeysinghe@eng.pdn.ac.lk by mentioning your subject."
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button4"
+        android:clickable="false"
+        android:background="@android:color/darker_gray"
+        android:layout_weight="0.00"
+        android:layout_height="2dp" />
+
+    <Button
+        android:text="Close"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/Close"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/background_dark" />
+</LinearLayout>

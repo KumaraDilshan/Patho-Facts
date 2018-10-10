@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/contact"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="301dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/cover_png_apply"
+        android:id="@+id/imageView9" />
+
+    <TextView
+        android:text="Version 1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView46"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView47" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:text="This application is an Agricultural source about plant diseases. You can simply select a disease which is visible in the spinner and search to have the details of it. The causal agents, vector(s) of the disease if exists, symptoms, management of the corresponding disease and a suitable photograph are contained in the detailed sections." />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button4"
+        android:clickable="false"
+        android:background="@android:color/darker_gray"
+        android:layout_weight="0.00"
+        android:layout_height="2dp" />
+
+    <Button
+        android:text="Close"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/Close"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/background_dark" />
+</LinearLayout>
